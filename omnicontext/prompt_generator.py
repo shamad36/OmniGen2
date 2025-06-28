@@ -103,7 +103,7 @@ Evaluate whether the identities of all subjects and the scene background in the 
 * Observe if **body shape**, **skin tone**, or other major physical characteristics have changed, or if there are abnormal anatomical structures.
 * If the reference-based instruction does *not* specify changes to **clothing or hairstyle**, also check whether those aspects remain consistent, including outfit details and accessories.
 * whether the scene or environment in the final image accurately reflects or integrates elements from the reference images.
-* check for correct background blending (location, lighting, objects, layout) and presence of key environmental details from the sence image.
+* check for correct background blending (location, lighting, objects, layout) and presence of key environmental details from the scene image.
 
 **Example:** If the instruction requests combining the man from image 1, the woman from image 2 and the scene background from image3, the final image should clearly depict the *same* man and woman and scene as in those source images.
 
