@@ -124,6 +124,8 @@ class OmniGen2ImageProcessor(VaeImageProcessor):
                 max_side_length_ratio = max_side_length / height
             else:
                 max_side_length_ratio = max_side_length / width
+        else:
+            max_side_length_ratio = 1.0
         
         cur_pixels = height * width
         max_pixels_ratio = (max_pixels / cur_pixels) ** 0.5
